@@ -2,9 +2,20 @@
 layout: default
 ---
 
-<div class="home">
+<section class="section">
+    <div class="wrap intro">
+        <p>Ich entwickle schnelle, responsive Webseiten für heute und die Zukunft. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
 
-  <h1 class="page-heading">Posts</h1>
+        <p class="en">I build fast, responsive websites for today and the future. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+
+        <p class="cta">
+            <a class="cta__link" href="mailto:work@martinwolf.org?subject=Let's work together">Contact me via email</a>
+            |
+            <a class="cta__link" href="http://twitter.com/_martinwolf">Follow me on Twitter</a>
+        </p>
+    </div>
+</section>
+
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -20,4 +31,3 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
