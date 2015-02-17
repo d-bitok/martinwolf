@@ -2,6 +2,12 @@
  * Generic
  */
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .wrap {
     max-width: $wrap+40px;
     margin-right: auto;
@@ -10,5 +16,28 @@
 }
 
 .section {
+    @extend %clearfix;
+
     margin-bottom: 4*$gap;
 }
+
+.section__title {
+    margin: 0 3*$gap 2*$gap;
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 400;
+    border-bottom: 3px solid $grey__light;
+}
+
+.btn.btn {
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: $blue;
+    transition: background-color .3s;
+
+    &:hover, &:focus {
+        text-decoration: none;
+        background-color: $blue__light;
+    }
+}
+

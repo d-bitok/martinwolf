@@ -16,18 +16,52 @@ layout: default
     </div>
 </section>
 
+<section class="section">
+    <div class="wrap">
+        <h2 class="section__title">Projects</h2>
+        <ul class="projects-list">
+            <li class="projects-list__item">
+                <a class="projects-list__link" href="/projects/finnfischer" style="background-color: #e8e8e7;">
+                    <img src="img/projects/finnfischer/finnfischer-logo-medium.png" alt="Finn Fischer Logo">
+                </a>
+            </li>
+            <li class="projects-list__item">
+                <a class="projects-list__link" href="/projects/brustzentrum-goettingen" style="background-color: #53465c;">
+                    <img src="img/projects/bzg/bzg-logo-medium.png" alt="Brustzentrum Göttingen Logo">
+                </a>
+            </li>
+            <li class="projects-list__item">
+                <a class="projects-list__link" href="/projects/getcite" style="background-color: #57398f;">
+                    <img src="img/projects/getcite/cite-logo-medium.png" alt="Cite Logo">
+                </a>
+            </li>
+            <li class="projects-list__item">
+                <a class="projects-list__link" href="">
+                    <img src="" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<section class="section">
+    <div class="wrap">
+        <h2 class="section__title">Articles</h2>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <ul class="articles-list">
+            {% for post in site.posts %}
+            <li class="articles-list__item">
 
+                <h2 class="articles-list__title">
+                    <span class="articles-list__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+                    <a class="articles-list__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+            </li>
+            {% endfor %}
+        </ul>
+
+        <p class="cta"><a class="cta__link" href="{{ "/feed.xml" | prepend: site.baseurl }}">Subscribe to new articles via RSS</a></p>
+    </div>
+</section>

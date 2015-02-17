@@ -1,0 +1,39 @@
+/**
+ * Projects
+ */
+
+.projects-list {
+    list-style: none;
+}
+
+.projects-list__item {
+    float: left;
+    width: 50%;
+    padding-bottom: $gap;
+
+    &:nth-child(even) {
+        padding-left: $gap;
+    }
+
+    &:nth-child(odd) {
+        padding-right: $gap;
+    }
+}
+
+.projects-list__link {
+    position: relative;
+    display: block;
+    padding-bottom: 100%;
+    transition: transform .3s $timing;
+
+    > img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+
+    &:hover, &:focus {
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+}
