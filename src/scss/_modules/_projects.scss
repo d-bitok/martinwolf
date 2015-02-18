@@ -30,10 +30,20 @@
         position: absolute;
         top: 50%;
         left: 50%;
+        max-width: 90%;
         transform: translateY(-50%) translateX(-50%);
     }
 
     &:hover, &:focus {
         transform: scale3d(1.05, 1.05, 1.05);
     }
+}
+
+.hero {
+    margin-bottom: 2*$gap;
+    padding: $gap 0 0 0;
+}
+
+.hero__img {
+    margin: 0 auto;
 }

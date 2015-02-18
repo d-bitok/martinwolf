@@ -11,6 +11,8 @@ body {
     font-family: "adelle", serif;
     font-size: 1.8rem;
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a {

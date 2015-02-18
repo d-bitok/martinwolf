@@ -30,14 +30,16 @@ img {
 }
 
 .btn.btn {
+    display: inline-block;
     padding: 1rem 2rem;
     color: #fff;
     background-color: $blue;
-    transition: background-color .3s;
+    transition: all .3s $timing;
 
     &:hover, &:focus {
         text-decoration: none;
         background-color: $blue__light;
+        transform: scale3d(1.05, 1.05, 1.05);
     }
 }
 

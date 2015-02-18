@@ -1,23 +1,26 @@
 ---
 layout: default
 ---
-<article class="article wrap">
-    <header class="article__header">
-        <h1 class="article__title">{{ page.title }}</h1>
-    </header>
+<section class="hero" style="background-color: #{{ page.background }};">
+    <img
+        class="hero__img"
+        srcset="/img/projects/{{ page.hero }}-huge.png 1600w, /img/projects/{{ page.hero }}-large.png 800w, /img/projects/{{ page.hero }}-medium.png 640w, /img/projects/{{ page.hero }}-small.png 320w"
+        sizes="(min-width: 800px) 800px, 100vw"
+        src="/img/projects/{{ page.hero }}-small.png"
+        alt="{{ page.title}} Screenshot"
+        width="800">
+</section>
 
-    {{ content }}
+<section class="section">
+    <article class="article wrap">
+        <header class="article__header">
+            <h1 class="article__title">{{ page.title }}</h1>
+        </header>
 
-    <div class="article__nav">
-        {% if page.previous %}
-            <a class="article__nav-link article__nav-link--prev" rel="prev" href="{{ page.previous.url }}">&larr; Older</a>
-        {% endif %}
-        {% if page.next %}
-            <a class="article__nav-link article__nav-link--next" rel="next" href="{{ page.next.url }}">Newer &rarr;</a>
-        {% endif %}
-    </div>
+        {{ content }}
 
-    <p class="cta cta--article">
-        <a class="btn" href="mailto:work@martinwolf.org?subject=Let's work together">Hire me</a>
-    </p>
-</article>
+        <p class="cta cta--article">
+            <a class="btn" href="mailto:work@martinwolf.org?subject=Let's work together">Hire me</a>
+        </p>
+    </article>
+</section>
