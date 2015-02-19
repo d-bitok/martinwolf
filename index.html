@@ -66,15 +66,14 @@ layout: default
         <h2 class="section__title">Articles</h2>
 
         <ul class="articles-list">
-            {% for post in site.posts %}
-            <li class="articles-list__item">
+            {% for post in site.posts limit: 10 %}
+                <li class="articles-list__item">
+                    <h2 class="articles-list__title">
+                        <span class="articles-list__date">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-                <h2 class="articles-list__title">
-                    <span class="articles-list__date">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-                    <a class="articles-list__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h2>
-            </li>
+                        <a class="articles-list__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h2>
+                </li>
             {% endfor %}
         </ul>
 

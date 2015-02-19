@@ -492,6 +492,12 @@ a:hover, a:focus {
   font-weight: 700;
 }
 
+blockquote {
+  margin-left: 3px;
+  padding-left: 20px;
+  border-left: 3px solid #E4E4E4;
+}
+
 code {
   font-family: 'Fira Mono', monospace;
   background: #f0f5f7;
@@ -516,7 +522,7 @@ pre {
 }
 
 .article__header {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .article__title {
@@ -524,7 +530,8 @@ pre {
   line-height: 1.2;
 }
 
-.article__meta {
+.article__meta.article__meta {
+  margin-bottom: 0;
   color: #8D8D8D;
 }
 

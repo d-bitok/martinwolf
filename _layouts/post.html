@@ -4,7 +4,13 @@ layout: default
 
 <article class="article wrap">
     <header class="article__header">
-        <h1 class="article__title">{{ page.title }}</h1>
+        {% if page.linked_list_url %}
+            <h1 class="article__title">
+                <a href="{{ page.linked_list_url }}">{{ page.title }}</a>
+            </h1>
+        {% else %}
+            <h1 class="article__title">{{ page.title }}</h1>
+        {% endif %}
         <p class="article__meta">{{ page.date | date: "%b %-d, %Y" }}</p>
     </header>
 

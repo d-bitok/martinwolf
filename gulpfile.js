@@ -27,7 +27,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('js', function() {
-  return gulp.src('src/js/**/*.js')
+  return gulp.src('src/js/scripts.js')
     .pipe(jshint())
     .pipe(jshint.reporter('default'))
     .pipe(concat('scripts.js'))

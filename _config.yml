@@ -11,7 +11,6 @@ url: "http://martinwolf.org" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title
-paginate: 10
 
 sass:
     sass_dir: css
