@@ -9,7 +9,7 @@
 .projects-list__item {
     float: left;
     width: 50%;
-    padding-bottom: $gap;
+    padding-bottom: 2*$gap;
 
     &:nth-child(even) {
         padding-left: $gap;

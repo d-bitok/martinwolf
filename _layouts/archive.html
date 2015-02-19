@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="wrap">
+    <header class="article__header">
+        <h1 class="article__title">{{ page.title }}</h1>
+    </header>
+
+    {{ content }}
+
+    <ul class="articles-list">
+        {% for post in site.posts %}
+        <li class="articles-list__item">
+
+            <h2 class="articles-list__title">
+                <span class="articles-list__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+                <a class="articles-list__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p class="cta cta--article">
+        <a class="btn" href="http://twitter.com/_martinwolf">Follow me on Twitter</a>
+    </p>
+</div>

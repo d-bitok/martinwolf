@@ -411,7 +411,7 @@ a:hover, a:focus {
 .projects-list__item {
   float: left;
   width: 50%;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .projects-list__item:nth-child(even) {
   padding-left: 20px;
