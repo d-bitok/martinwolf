@@ -22,6 +22,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Fira Mono';
+  src: url("../fonts/FiraMono-Medium.woff") format("woff"), url("../fonts/FiraMono-Medium.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
 /**
  * Normalize
  */
@@ -489,6 +495,12 @@ a:hover, a:focus {
   margin-top: 40px;
   margin-bottom: 10px;
   font-size: 2.6rem;
+  font-weight: 700;
+}
+.article h3 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 2.2rem;
   font-weight: 700;
 }
 
