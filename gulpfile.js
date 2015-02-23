@@ -11,6 +11,7 @@ var gulp = require('gulp'),
     cache = require('gulp-cache'),
     plumber = require('gulp-plumber'),
     browserSync = require('browser-sync'),
+    critical = require('critical'),
     cp = require('child_process');
 
 gulp.task('css', function() {
@@ -42,6 +43,23 @@ gulp.task('js', function() {
 gulp.task('clean', function() {
   return gulp.src(['css', 'js'], {read: false})
     .pipe(clean());
+});
+
+gulp.task('critical-css', function() {
+    critical.generate({
+        // Your base directory
+        base: '_site/',
+        // HTML source file
+        src: 'index.html',
+        // CSS output file
+        dest: 'css/critical.min.css',
+        // Viewport width
+        width: 1200,
+        // Viewport height
+        height: 900,
+        // Minify critical-path CSS
+        minify: true
+    });
 });
 
 /**
@@ -77,6 +95,7 @@ gulp.task('watch', function() {
   gulp.watch('src/scss/**/*.scss', ['css']);
   // Watch .js files
   gulp.watch('src/js/**/*.js', ['js']);
+  // Watch .html files and posts
   gulp.watch(['index.html', '_includes/*.html', '_layouts/*.html', '*.md', '_posts/*'], ['jekyll-rebuild']);
 });
 
