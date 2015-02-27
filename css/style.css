@@ -14,21 +14,6 @@
 }
 
 /**
- * Fonts
- */
-@font-face {
-  font-family: 'Fira Mono';
-  src: url("../fonts/FiraMono-Regular.woff") format("woff"), url("../fonts/FiraMono-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Fira Mono';
-  src: url("../fonts/FiraMono-Medium.woff") format("woff"), url("../fonts/FiraMono-Medium.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
-/**
  * Normalize
  */
 /* Remove all margins and paddings and change `box-sizing` */
@@ -511,7 +496,7 @@ blockquote {
 }
 
 code {
-  font-family: 'Fira Mono', monospace;
+  font-family: 'fira-mono', monospace;
   background: #f0f5f7;
 }
 

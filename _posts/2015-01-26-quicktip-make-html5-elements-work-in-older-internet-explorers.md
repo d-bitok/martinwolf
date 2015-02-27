@@ -25,9 +25,12 @@ tags:
 
 Include the script in the head of your page, so IE knows the new elements before rendering them. You should do that with [Conditional Comments][2] to make sure that the file is only loaded for the browsers that need it, in this case IE9 and below.
 
-<pre><code  class="lang-markup">&lt;!--[if lt IE 9]&gt;
-    &lt;script src="js/html5shiv.js"&gt;&lt;/script&gt;
-&lt;![endif]--&gt;</code></pre>
+
+{% highlight html %}
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+<![endif]-->
+{% endhighlight %}
 
  [1]: http://martinwolf.org/2015/01/22/ie78-friendly-nth-child/
  [2]: https://msdn.microsoft.com/en-us/library/ms537512%28v=vs.85%29.aspx

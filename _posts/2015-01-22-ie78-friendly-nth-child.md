@@ -35,9 +35,11 @@ The CSS3 `nth-child` selectors are very helpful in a lot of different circumstan
 
 This selects the second `li` which is a child of an `ul`. 
 
-<pre><code class="lang-css">ul li:nth-child(2) {
+{% highlight css %}
+ul li:nth-child(2) {
     /* ... */
-}</code></pre>
+}
+{% endhighlight %}
 
 Translated into the adjacent sibling selector syntax that means we want to select the adjacent sibling of the first `li` inside the `ul`.
 
