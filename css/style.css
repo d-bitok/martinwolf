@@ -385,11 +385,19 @@ a:hover, a:focus {
   text-align: center;
 }
 
+.site-footer__item {
+  padding: 1rem;
+}
+
 /**
  * Intro
  */
 .cta {
   margin-top: 40px;
+}
+
+.cta__link {
+  padding: 1rem;
 }
 
 /**
