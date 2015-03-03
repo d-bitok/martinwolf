@@ -9,7 +9,7 @@ Most of my early assignments came from friends or people that already knew me an
 
 While time went on I got in contact with new people and potential clients and the question that came up a lot was what I have worked on, if I could show some references. I had these infos on the site, but kind of burried deep down in my about page.
 
-It was time for a portfolio, but I didn't want to separate it too much from the blog and I wanted to keep blogging on martinwolf.org. So I decided to make the frontpage more like a portfolio homepage and link to blog articles fruther down the page. So I was able to put the focus on me and the projects I worked on instead of the blog posts. Most people get to the articles directly anyway.
+It was time for a portfolio, but I didn't want to separate it too much from the blog and I wanted to keep blogging on martinwolf.org. So I decided to make the frontpage more like a portfolio homepage and link to blog articles further down the page. So I was able to put the focus on me and the projects I worked on instead of the blog posts. Most people get to the articles directly anyway.
 
 I think this is a nice compromise and fellow developers in search for articles as well as potential clients get the best from the new site.
 
