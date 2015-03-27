@@ -12,6 +12,9 @@ I’m still using my trusty old Mid 2012 MacBook Air. I can feel that it’s get
 
 I’m waiting for the next Apple event, supposedly March 9th, and hope for new MacBooks. Not sure whether I’ll stick with an Air or if I might be switching to an 15” MacBook Pro so I can work more efficiently when I’m not hooked up to an external display. 13” are nice to travel with, but it’s not quite enough space for working on it for a longer period of time.
 
+### Rain Design mStand
+My MacBook sits left to the Cinema Display on the [mStand](http://www.raindesigninc.com/mstand.html). It elevates the MacBook to a comfortable height while at the same time providing some space beneath it store papers and stuff. Sometimes if I only use the MacBook I take the mStand with me as well as external keyboard and mouse. It makes working on a laptop very comfortable.
+
 ### 27” Cinema Display
 My external display of choice remains the 27” Cinema Display which still does its job. I’m having an eye on the emerging ultra wide screen displays, but am not tempted to buy one, yet.
 
@@ -22,7 +25,7 @@ I switched to an english keyboard layout and started to enjoy mechanical keyboar
 I’m a big fan of the internal Trackpad of MacBooks, but somehow I don’t really like the external Magic Trackpad. Not sure what’s the problem. Might be the size, the angle or just the position next to the keyboard instead of below it. So I just switched to a Razer DeathAdder Chroma mouse. I always loved the Logitech MX series, but my G400 doesn’t work well with OS X and I have a lot of other Razer gear on my Windows PC which has always done a great job, so I chose a DeathAdder. I think I’m going to enjoy it.
 
 ### Apple iPhone 6
-As every year in autumn I switched to the newest iPhone. I chose the 6 over the 6 Plus. It’s cheaper and I was already worried about the size of the regular 6 so I don’t wanted to give the 6 Plus a try. Still not sure what to think of the trend of big phones. But I recently held a 6 Plus in my hands and the display is really gorgeous.
+As every year in autumn I switched to the newest iPhone. I chose the 6 over the 6 Plus. It’s cheaper and I was already worried about the size of the regular 6 so I didn't want to give the 6 Plus a try. Still not sure what to think of the trend of big phones. But I recently held a 6 Plus in my hands and the display is really gorgeous.
 
 ### Apple Retina iPad Mini
 I sold the regular iPad Mini and kept the one with Retina Display. I use it for testing as well as watching Netflix, reading, etc.
@@ -44,7 +47,7 @@ While I’ve always enjoyed Sublime Text and still think it’s the best regular
 It took me a good while to understand it and learning a lot of the basic commands but now I love it. I use it in combination with [tmux](http://tmux.sourceforge.net/) and my command line app of choice still remains iTerm 2. I feel comfortable using vim now, but there is still sooooo much to learn. I think that’s part of the fun. It’s basics are so easy and straight forward but there is basically no limit to what you can do with it and how fast you can be. I’m just fascinated by it.
 
 ### Browsers
-I constantly switch between browsers. Partly because I’m unsatisfied with everyone in one or the other way and partly because I test sites in different browsers constantly. I don’t use a lot of Browser extensions besides 1Password and some sort of Ad Blocker and bookmarks are stored on Pinboard, so switching isn’t a big deal. I probably want to use Firefox most of the time, because it looks good, supports standards and I feel aligned with what Mozilla stands for, but it still has it’s performance issues.
+I constantly switch between browsers. Partly because I’m unsatisfied with every one in one or the other way and partly because I test sites in different browsers constantly. I don’t use a lot of Browser extensions besides 1Password and some sort of Ad Blocker and bookmarks are stored on Pinboard, so switching isn’t a big deal. I probably want to use Firefox most of the time, because it looks good, supports standards and I feel aligned with what Mozilla stands for, but it still has its performance issues.
 
 All in all I think it’s important for a web developer to remember that we are not living in a browser mono culture and that there is more than Chrome out there.
 
