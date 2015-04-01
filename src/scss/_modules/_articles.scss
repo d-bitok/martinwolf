@@ -50,6 +50,16 @@
         font-size: 2.2rem;
         font-weight: 700;
     }
+
+    figure {
+        margin-bottom: $gap;
+    }
+
+    figcaption {
+        margin-top: -$gap/2;
+        text-align: center;
+        font-size: 1.4rem;
+    }
 }
 
 blockquote {

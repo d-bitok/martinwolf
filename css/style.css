@@ -496,6 +496,14 @@ a:hover, a:focus {
   font-size: 2.2rem;
   font-weight: 700;
 }
+.article figure {
+  margin-bottom: 20px;
+}
+.article figcaption {
+  margin-top: -10px;
+  text-align: center;
+  font-size: 1.4rem;
+}
 
 blockquote {
   margin-left: 3px;
