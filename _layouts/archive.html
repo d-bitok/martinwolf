@@ -16,7 +16,25 @@ layout: default
             <h2 class="articles-list__title">
                 <span class="articles-list__date">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-                <a class="articles-list__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <a class="articles-list__link" href="{{ post.url | prepend: site.baseurl }}">
+                    {{ post.title }}
+
+                    {% if post.format %}
+                        <span class="articles-list__type">
+                            {% if post.format == "link" %}
+                                (Link)
+                            {% endif %}
+
+                            {% if post.format == "video" %}
+                                (Video)
+                            {% endif %}
+
+                            {% if post.format == "article" %}
+                                (Article)
+                            {% endif %}
+                        </span>
+                    {% endif %}
+                </a>
             </h2>
         </li>
         {% endfor %}

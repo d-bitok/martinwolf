@@ -2,6 +2,7 @@
 title: HTML5 telephone input validation
 layout: post
 permalink: /2015/04/09/html5-telephone-input-validation/
+format: article
 ---
 **HTML5 offers a lot of awesome additions to the old school `input` element. For example a bunch of new input types like `number` or `email`.**
 

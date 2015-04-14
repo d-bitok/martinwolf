@@ -67,7 +67,7 @@ layout: default
 
 <section class="section">
     <div class="wrap">
-        <h2 class="section__title">Articles</h2>
+        <h2 class="section__title">Blogposts</h2>
 
         <ul class="articles-list">
             {% for post in site.posts limit: 10 %}
@@ -75,7 +75,25 @@ layout: default
                     <h2 class="articles-list__title">
                         <span class="articles-list__date">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-                        <a class="articles-list__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                        <a class="articles-list__link" href="{{ post.url | prepend: site.baseurl }}">
+                            {{ post.title }}
+
+                            {% if post.format %}
+                                <span class="articles-list__type">
+                                    {% if post.format == "link" %}
+                                        (Link)
+                                    {% endif %}
+
+                                    {% if post.format == "video" %}
+                                        (Video)
+                                    {% endif %}
+
+                                    {% if post.format == "article" %}
+                                        (Article)
+                                    {% endif %}
+                                </span>
+                            {% endif %}
+                        </a>
                     </h2>
                 </li>
             {% endfor %}
