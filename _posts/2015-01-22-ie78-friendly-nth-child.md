@@ -54,7 +54,7 @@ With this method you can also select the 3rd, 4th, &#8230; `li`.
 }</code></pre>
 
 This would select the 3rd `li` inside the `ul`.  
-Sadly that workaround doesn&#8217;t help with the more advanced CSS3 selectors like `nth-child(2n)`, `:nth-child(2n+5) or the aforementioned <code>:last-child`</code>.
+Sadly that workaround doesn&#8217;t help with the more advanced CSS3 selectors like `nth-child(2n)`, `:nth-child(2n+5)` or the aforementioned `:last-child`.
 
 As always I&#8217;ve put that code together in a [CodePen][1] so you can try it out:
 
