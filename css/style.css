@@ -509,6 +509,9 @@ a:hover, a:focus {
   text-align: center;
   font-size: 1.4rem;
 }
+.article iframe {
+  max-width: 100%;
+}
 
 blockquote {
   margin-left: 3px;
